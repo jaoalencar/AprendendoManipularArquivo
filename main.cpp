@@ -1,3 +1,5 @@
+//CÓDIGO DE EXEMPLO DISPONIBILIZADO PELO PROFESSOR
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
