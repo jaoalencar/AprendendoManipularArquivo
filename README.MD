@@ -4,7 +4,7 @@
 ### Organização dos códigos
 * main.cpp -> código disponíbilizado pelo professor para estudo
 * Q(*Numero do execício*) -> Exercícios deixados pelo professor para praticar
-    1. Escreva um programa que:
+    __1.__ Escreva um programa que:
         1. (a) Crie/abra um arquivo texto de nome "arq.txt"
         1. (b) Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
         1. (c) Feche o arquivo.
