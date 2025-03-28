@@ -3,7 +3,7 @@
 ***
 ### Organização dos códigos
 * main.cpp -> código disponíbilizado pelo professor para estudo
-* Pasta QUESTOES -> Pasta contendo as seguintes questões
+* Pasta QUESTOES -> Pasta contendo as seguintes questões, na pasta há um README.md com as questões
 * Q(*Numero do execício*) -> Exercícios deixados pelo professor para praticar
      1. Escreva um programa que:
         1. (a) Crie/abra um arquivo texto de nome "arq.txt"
