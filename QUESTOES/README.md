@@ -1,4 +1,5 @@
 # Exercícios propostos pela lista do professor
+##### O documento NOVO.txt é onde está sendo realizado os testes dos código, altere o para testar também :smiley:
 ***
 __Q1__ -> Escreva um programa que:
    1. Crie/abra um arquivo texto de nome "arq.txt"

@@ -1,3 +1,10 @@
+/*
+Q1-> Escreva um programa que:
+   1. Crie/abra um arquivo texto de nome "arq.txt"
+   2. Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
+   3. Feche o arquivo.
+   4. Agora, abra e leia o arquivo, caracter por caracter, e escreva na tela todos os caracteres armazenados.
+*/
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
