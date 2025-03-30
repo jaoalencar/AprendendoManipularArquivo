@@ -1,5 +1,5 @@
 /*
-Q3 -> Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas letras são vogais.
+__Q4__ -> Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas letras são vogais e quantas são consoantes.
 */
 #include <iostream>
 #include <stdio.h>
@@ -12,7 +12,7 @@ bool ContaLinha(char nome[50]){
     //Variaveis locais
     pFile = fopen(nome, "r");
     char c;
-    int vogais = 0;
+    int vogais = 0, consoantes = 0;
 
     //Teste do arquivo
     if (pFile == NULL){
@@ -35,11 +35,21 @@ bool ContaLinha(char nome[50]){
                 c == 'u'   )
             {
                 vogais++;
-            } 
+            }else if(c != ' ' &&
+                    c != '.' &&
+                    c != ',' &&
+                    c != ';' &&
+                    c != '!' &&
+                    c != '?' &&
+                    c != ':'   )
+            {
+                consoantes++;
+            }   
         }
     }
     
     //Mostra a quantidade de consoantes e vogais
+    cout<<"Numero de consoantes: "<<consoantes<<endl;
     cout<<"Numero de vogais: "<<vogais<<endl;
     
 fclose(pFile);
