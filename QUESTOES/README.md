@@ -5,6 +5,7 @@
    * Execute o programa de cada uma das questões, quando pedir para digitar um nome escreva "novo"
    * Agora é somente ver a alteração que cada programa fez no arquivo novo.txt e como cada programa se comporta!! :wink:
 ***
+##### Questões
 __Q1__ -> Escreva um programa que:
    1. Crie/abra um arquivo texto de nome "arq.txt"
    2. Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
