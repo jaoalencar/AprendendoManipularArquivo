@@ -1,9 +1,9 @@
 # Exercícios propostos pela lista do professor
 ##### O documento NOVO.txt é onde está sendo realizado os testes dos código, altere o para testar também :smiley:
-*Como fazer??
-   *Escreva qualquer coisa no arquivo novo.txt
-   *Execute o programa de cada uma das questões, quando pedir para digitar um nome escreva "novo"
-   *Agora é somente ver a alteração que cada programa fez no arquivo novo.txt e como cada programa se comporta!! :wink:
+* Como fazer??
+   * Escreva qualquer coisa no arquivo novo.txt
+   * Execute o programa de cada uma das questões, quando pedir para digitar um nome escreva "novo"
+   * Agora é somente ver a alteração que cada programa fez no arquivo novo.txt e como cada programa se comporta!! :wink:
 ***
 __Q1__ -> Escreva um programa que:
    1. Crie/abra um arquivo texto de nome "arq.txt"
