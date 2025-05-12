@@ -35,9 +35,14 @@ bool criaCopia(char origem[60]){
         cout<<"Erro ao abrir o arquivo";
         return false;
     }
-    while (c!=EOF)
+    while (true)
     {
+        //Pega os caracteres do documento .txt
         c = getc(pFileOrigem);
+        //Condição de parada
+        if (c==EOF){ break; }
+        
+
         if (tolower(c) == 'a' ||
             tolower(c) == 'e' ||
             tolower(c) == 'i' ||
@@ -58,7 +63,7 @@ return true;
 int main(){
     //VARIAVEIS
     char arq[60];
-    char copiaArq[60];
+
     //MENU
     cout<<"-----Eliminadora de vogais-----"<<endl;
     cout<<"Digite o novo do arquivo: ";
